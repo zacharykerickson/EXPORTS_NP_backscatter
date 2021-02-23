@@ -1,6 +1,8 @@
 # EXPORTS_NP_backscatter
 Code on EXPORTS North Pacific backscatter alignment, in support of publication Erickson et al., 2021 in Elementa.
 
+Note: I will edit this to make it more helpful, and make sure the code is commented! Hopefully before paper is submitted. Once paper is accepted I will also make a static DOI for this by uploading to Zenodo (I think I should wait until it is accepted, since the DOI will be a static version of this repository).
+
 # Table of Contents
 
 `get_bestfit.py`: includes functions to find nearest profiles between two platforms, interpolate data with respect to depth and density, and fit a line through data using orthogonal distance regression (ODR).
