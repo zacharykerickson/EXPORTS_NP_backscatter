@@ -1,0 +1,290 @@
+Running aligned comparisons with the following variables:
+DIST_THRES = 5 # km
+TIME_THRES = 6/24 # days
+DTEMP_THRES = 0.5 # deg C
+DSAL_THRES = 0.1 # psu
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py FLBBSR FLBBRR
+For FLBBSR: Using alignment a=0.95 (0.03) and b=-1.0 (0.2) x 1e-4 m-1
+For FLBBRR: Using alignment a=1.00 (0.00) and b=0.0 (0.0) x 1e-4 m-1
+
+11 matches found
+FLBB (SR) dives: [42 49 63 82 87 105 110 111 114 130 136]
+FLBB (RR) dives: [25 30 38 50 52 59 63 64 66 79 83]
+Distances (km)           [1.11 4.38 1.76 4.35 1.44 2.14 2.65 1.97 4.33 0.84 1.01]
+Time separations (hours) [0.51 1.77 2.26 1.66 0.06 1.74 0.56 2.84 3.53 0.06 3.87]
+
+n=287 (6 outliers removed), r^2=0.960
+Best-fit  line:  b=+0.003 (0.037) x1e-4, a=0.998 (0.008)
+Best-fit offset, b=-0.002 (0.021) x1e-4
+
+Total error, adding in uncertainty in the calibration and alignment coefficients:
+Best-fit  line:  b=+0.003 (0.328) x1e-4, a=0.998 (0.041)
+Best-fit offset, b=-0.002 (0.326) x1e-4
+
+95% Confidence intervals:
+Best-fit line (df=285): b=+0.0 (0.6) x1e-4, a=1.00 (0.08)
+Best-fit offset (df=286), b=-0.0 (0.6) x1e-4
+
+Figure saved to aligned_bbp_FLBBSR_FLBBRR.png
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BBFL2WW FLBBRR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB2FLSG FLBBRR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB9RR FLBBRR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB9SR FLBBRR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py HS6RR FLBBRR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py FLBBLF FLBBRR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py MCOMSBGC FLBBRR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BBFL2WW FLBBSR
+For BBFL2WW: Using alignment a=1.00 (0.00) and b=0.0 (0.0) x 1e-4 m-1
+For FLBBSR: Using alignment a=0.95 (0.03) and b=-1.0 (0.2) x 1e-4 m-1
+
+7 matches found
+BBFL2 (WW) dives: [222 239 289 330 343 374 521]
+FLBB (SR) dives: [82 87 105 110 111 114 130]
+Distances (km)           [4.07 0.29 0.86 3.6  1.46 4.92 0.11]
+Time separations (hours) [4.14 1.82 2.22 0.45 5.92 5.39 0.06]
+
+n=192 (0 outliers removed), r^2=0.920
+Best-fit  line:  b=-0.555 (0.076) x1e-4, a=1.092 (0.015)
+Best-fit offset, b=-0.169 (0.044) x1e-4
+
+Total error, adding in uncertainty in the calibration and alignment coefficients:
+Best-fit  line:  b=-0.555 (0.332) x1e-4, a=1.092 (0.047)
+Best-fit offset, b=-0.169 (0.314) x1e-4
+
+95% Confidence intervals:
+Best-fit line (df=190): b=-0.6 (0.7) x1e-4, a=1.09 (0.09)
+Best-fit offset (df=191), b=-0.2 (0.6) x1e-4
+
+Figure saved to aligned_bbp_BBFL2WW_FLBBSR.png
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB2FLSG FLBBSR
+For BB2FLSG: Using alignment a=1.00 (0.00) and b=0.0 (0.0) x 1e-4 m-1
+For FLBBSR: Using alignment a=0.95 (0.03) and b=-1.0 (0.2) x 1e-4 m-1
+
+16 matches found
+BB2FL (SG) dives: [166 172 174 234 258 298 303 304 309 330 335 348 353 368 419 421]
+FLBB (SR) dives: [1 8 9 42 52 70 76 75 80 101 105 110 111 120 143 144]
+Distances (km)           [3.4  1.77 0.74 2.25 0.23 0.28 3.49 2.98 3.63 4.73 0.49 0.32 1.49 3.71
+ 0.21 2.22]
+Time separations (hours) [4.46 1.99 5.55 5.9  0.64 0.39 1.78 3.18 5.32 2.82 5.92 0.44 1.41 4.55
+ 0.87 2.42]
+
+n=344 (5 outliers removed), r^2=0.959
+Best-fit  line:  b=-0.440 (0.044) x1e-4, a=1.001 (0.009)
+Best-fit offset, b=-0.434 (0.022) x1e-4
+
+Total error, adding in uncertainty in the calibration and alignment coefficients:
+Best-fit  line:  b=-0.440 (0.308) x1e-4, a=1.001 (0.041)
+Best-fit offset, b=-0.434 (0.305) x1e-4
+
+95% Confidence intervals:
+Best-fit line (df=342): b=-0.4 (0.6) x1e-4, a=1.00 (0.08)
+Best-fit offset (df=343), b=-0.4 (0.6) x1e-4
+
+Figure saved to aligned_bbp_BB2FLSG_FLBBSR.png
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB9RR FLBBSR
+For BB9RR: Using alignment a=1.00 (0.00) and b=0.0 (0.0) x 1e-4 m-1
+For FLBBSR: Using alignment a=0.95 (0.03) and b=-1.0 (0.2) x 1e-4 m-1
+
+5 matches found
+BB9 (RR) dives: [ 9 17 22 23 29]
+FLBB (SR) dives: [49 87 105 111 130]
+Distances (km)           [4.35 1.45 2.47 3.23 0.94]
+Time separations (hours) [4.53 1.48 5.59 4.66 1.41]
+
+n=58 (0 outliers removed), r^2=0.834
+Best-fit  line:  b=+0.272 (0.510) x1e-4, a=0.977 (0.057)
+Best-fit offset, b=+0.078 (0.150) x1e-4
+
+Total error, adding in uncertainty in the calibration and alignment coefficients:
+Best-fit  line:  b=+0.272 (0.588) x1e-4, a=0.977 (0.070)
+Best-fit offset, b=+0.078 (0.332) x1e-4
+
+95% Confidence intervals:
+Best-fit line (df=56): b=+0.3 (1.2) x1e-4, a=0.98 (0.14)
+Best-fit offset (df=57), b=+0.1 (0.7) x1e-4
+
+Figure saved to aligned_bbp_BB9RR_FLBBSR.png
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB9SR FLBBSR
+For BB9SR: Using alignment a=1.00 (0.00) and b=0.0 (0.0) x 1e-4 m-1
+For FLBBSR: Using alignment a=0.95 (0.03) and b=-1.0 (0.2) x 1e-4 m-1
+
+41 matches found
+BB9 (SR) dives: [2 6 7 10 11 13 16 17 22 23 26 28 30 31 34 36 38 39 42 46 47 50 52 54 55
+ 58 60 62 64 66 68 70 72 74 76 77 79 82 84 86 87]
+FLBB (SR) dives: [4 10 12 16 18 24 27 31 39 40 44 46 49 50 55 57 60 61 64 68 75 77 85 86 87
+ 97 101 103 106 108 111 115 117 122 127 128 130 134 135 140 141]
+Distances (km)           [0.01 0.05 0.03 0.03 0.02 0.03 0.01 0.02 0.04 0.03 0.01 0.61 0.01 0.01
+ 0.04 0.03 0.01 0.01 0.32 0.27 0.01 0.01 0.02 0.72 0.03 0.   0.01 0.21
+ 3.95 0.02 0.02 0.01 0.44 0.01 0.01 0.04 0.28 0.04 0.29 0.03 0.02]
+Time separations (hours) [0.64 0.7  0.92 0.69 1.11 1.15 0.7  1.53 0.71 0.87 0.79 1.24 0.67 0.89
+ 0.55 0.97 0.64 3.44 1.24 1.18 1.   1.07 0.75 1.13 1.73 1.11 0.58 1.67
+ 0.69 0.58 0.59 0.64 1.12 0.63 0.53 1.11 1.35 0.57 1.11 0.57 1.14]
+
+n=870 (0 outliers removed), r^2=0.977
+Best-fit  line:  b=+0.298 (0.018) x1e-4, a=0.984 (0.004)
+Best-fit offset, b=+0.239 (0.010) x1e-4
+
+Total error, adding in uncertainty in the calibration and alignment coefficients:
+Best-fit  line:  b=+0.298 (0.792) x1e-4, a=0.984 (0.039)
+Best-fit offset, b=+0.239 (0.803) x1e-4
+
+95% Confidence intervals:
+Best-fit line (df=868): b=+0.3 (1.6) x1e-4, a=0.98 (0.08)
+Best-fit offset (df=869), b=+0.2 (1.6) x1e-4
+
+Figure saved to aligned_bbp_BB9SR_FLBBSR.png
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py HS6RR FLBBSR
+For HS6RR: Using alignment a=1.31 (0.04) and b=0.6 (0.3) x 1e-4 m-1
+For FLBBSR: Using alignment a=0.95 (0.03) and b=-1.0 (0.2) x 1e-4 m-1
+
+7 matches found
+HS6 (RR) dives: [0 9 18 23 25 26 33]
+FLBB (SR) dives: [1 49 82 105 114 111 130]
+Distances (km)           [3.57 4.37 4.96 2.13 4.77 2.   1.  ]
+Time separations (hours) [2.11 3.75 3.79 0.53 2.34 2.03 2.05]
+
+n=93 (0 outliers removed), r^2=0.578
+Best-fit  line:  b=-0.078 (0.559) x1e-4, a=0.995 (0.065)
+Best-fit offset, b=-0.116 (0.166) x1e-4
+
+Total error, adding in uncertainty in the calibration and alignment coefficients:
+Best-fit  line:  b=-0.078 (0.712) x1e-4, a=0.995 (0.087)
+Best-fit offset, b=-0.116 (0.472) x1e-4
+
+95% Confidence intervals:
+Best-fit line (df=91): b=-0.1 (1.4) x1e-4, a=1.00 (0.17)
+Best-fit offset (df=92), b=-0.1 (0.9) x1e-4
+
+Figure saved to aligned_bbp_HS6RR_FLBBSR.png
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py FLBBLF FLBBSR
+For FLBBLF: Using alignment a=2.13 (0.19) and b=-37.8 (5.8) x 1e-4 m-1
+For FLBBSR: Using alignment a=0.95 (0.03) and b=-1.0 (0.2) x 1e-4 m-1
+
+6 matches found
+FLBB (LF) dives: [ 0  7 11 17 23 24]
+FLBB (SR) dives: [8 42 63 105 131 136]
+Distances (km)           [0.38 0.34 0.54 0.32 1.83 1.14]
+Time separations (hours) [1.01 1.21 1.19 1.05 3.69 0.53]
+
+n=58 (0 outliers removed), r^2=0.697
+Best-fit  line:  b=+1.776 (0.529) x1e-4, a=0.798 (0.072)
+Best-fit offset, b=+0.377 (0.176) x1e-4
+
+Total error, adding in uncertainty in the calibration and alignment coefficients:
+Best-fit  line:  b=+1.776 (4.965) x1e-4, a=0.798 (0.171)
+Best-fit offset, b=+0.377 (6.188) x1e-4
+
+95% Confidence intervals:
+Best-fit line (df=56): b=+1.8 (9.9) x1e-4, a=0.80 (0.34)
+Best-fit offset (df=57), b=+0.4 (12.4) x1e-4
+
+Figure saved to aligned_bbp_FLBBLF_FLBBSR.png
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py MCOMSBGC FLBBSR
+For MCOMSBGC: Using alignment a=1.00 (0.00) and b=0.0 (0.0) x 1e-4 m-1
+For FLBBSR: Using alignment a=0.95 (0.03) and b=-1.0 (0.2) x 1e-4 m-1
+
+1 matches found
+MCOMS (BGC) dives: [10]
+FLBB (SR) dives: [65]
+Distances (km)           [0.67]
+Time separations (hours) [0.63]
+
+n=24 (1 outliers removed), r^2=0.993
+Best-fit  line:  b=-0.254 (0.089) x1e-4, a=1.052 (0.023)
+Best-fit offset, b=-0.074 (0.044) x1e-4
+
+Total error, adding in uncertainty in the calibration and alignment coefficients:
+Best-fit  line:  b=-0.254 (0.264) x1e-4, a=1.052 (0.048)
+Best-fit offset, b=-0.074 (0.252) x1e-4
+
+95% Confidence intervals:
+Best-fit line (df=22): b=-0.3 (0.5) x1e-4, a=1.05 (0.10)
+Best-fit offset (df=23), b=-0.1 (0.5) x1e-4
+
+Figure saved to aligned_bbp_MCOMSBGC_FLBBSR.png
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB2FLSG BBFL2WW
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB9RR BBFL2WW
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB9SR BBFL2WW
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py HS6RR BBFL2WW
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py FLBBLF BBFL2WW
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py MCOMSBGC BBFL2WW
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB9RR BB2FLSG
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB9SR BB2FLSG
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py HS6RR BB2FLSG
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py FLBBLF BB2FLSG
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py MCOMSBGC BB2FLSG
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py BB9SR BB9RR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py HS6RR BB9RR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py FLBBLF BB9RR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py MCOMSBGC BB9RR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py HS6RR BB9SR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py FLBBLF BB9SR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py MCOMSBGC BB9SR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py FLBBLF HS6RR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py MCOMSBGC HS6RR
+No need to run this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+running: compare_aligned_inst.py MCOMSBGC FLBBLF
+No need to run this
