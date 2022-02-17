@@ -1,5 +1,5 @@
 # Post-alignment comparisons  
-| Sensor 1 | Sensor 2 | Profiles | n | r2 | a (line) | b (line, 10^{-4} m^{-1}) | b (offset, 10^{-4} m^{-1}) |  
+| Sensor 1 | Sensor 2 | Profiles | n | r2 | a (line) | b (line, 10<sup>-4</sup> m<sup>-1</sup>) | b (offset, 10<sup>-4</sup> m<sup>-1</sup>) |  
 |:---------|:---------|:---------|:--|:---|:--|:--|:--|  
 | FLBBSR | FLBBRR | 11 | 287 | 0.96 | 1.00 &pm; 0.08 | 0.0 &pm; 0.6 | -0.0 &pm; 0.6 |  
 | BBFL2WW | FLBBSR | 7 | 192 | 0.92 | 1.09 &pm; 0.09 | -0.6 &pm; 0.7 | -0.2 &pm; 0.6 |  
