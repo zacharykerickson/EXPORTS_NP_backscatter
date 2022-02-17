@@ -15,7 +15,7 @@ Code on EXPORTS North Pacific backscatter alignment, in support of publication E
 
 6. Run the `run_aligned_comparisons.sh` bash script. This will go into the `comparisons.csv` file, make recommended alignments, and then re-do the comparison. By default, this will print statistical results to the terminal window. You can port this into its own file. To duplicate exactly what I did, in Terminal type: `bash run_aligned_comparisons.sh >> out_aligned.log`, and you should be able to exactly recreate the `out_aligned.log` file provided here.
 
-7. This will similarly create figures and a .csv file, by default comparisons_aligned.csv, which will give all of the information found in Figure 4.
+7. This will similarly create figures and a .csv file, by default `comparisons_aligned.csv`, which will give all of the information found in Figure 4.
 
 ## Data files
 - FLBB-RR: R2 dataset, filenames matching 'EXPORTS_EXPORTSNP_CTDbinned_rosette_process\_\*\_R2.sb', submitted by UCSB/CRSEO.  
