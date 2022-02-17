@@ -7,21 +7,21 @@ Code on EXPORTS North Pacific backscatter alignment, in support of publication E
 
 2. Define locations for the data in the `config.py` file. This is the `data_folder` variable and the `data_files` dictionary. Make sure they point to the correct places on your computer.
 
-3. Ensure you have all appropriate Python packages downloaded. Everything used here is easily downloaded from 'conda' or 'pip'. The exact environment I used is included here as `zke_elem22.yml`. If you have 'conda', you can simply run (on a Mac):
+3. Ensure you have all appropriate Python packages downloaded. Everything used here is easily downloaded from 'conda' or 'pip'. The exact environment I used is included here as `zke_elem22.yml`. If you have 'conda', you can simply run (on a Mac):  
 `$ conda env create -f zke_elem22.yml`  
 `$ conda activate zke_elem22`  
 
-4. Run the `run_comparisons.sh` bash script. By default, this will print statistical results to the terminal window. You can port this into its own file. To duplicate exactly what I did, in Terminal type: 
+4. Run the `run_comparisons.sh` bash script. By default, this will print statistical results to the terminal window. You can port this into its own file. To duplicate exactly what I did, in Terminal type:  
 `$ bash run_comparisons.sh >> out.log`  
 Depending on what is in the `config.py file`, this will plot figures (if `PLOT_FIG = True`), save figures (if `SAVE_FIG = True`), output info (if `OUTPUT_INFO = True`), and save the alignment statistics  (if `SAVE_INFO = True`) in `comparisons.csv` (or whatever `SAVE_INFO_FN` is set to). These will give all of the information found in Table 2 and Figures 3, S1--S28.
 
-5. Run the `run_aligned_comparisons.sh` bash script. This will go into the `comparisons.csv` file, make recommended alignments, and then re-do the comparison. By default, this will print statistical results to the terminal window. You can port this into its own file. To duplicate exactly what I did, in Terminal type: 
+5. Run the `run_aligned_comparisons.sh` bash script. This will go into the `comparisons.csv` file, make recommended alignments, and then re-do the comparison. By default, this will print statistical results to the terminal window. You can port this into its own file. To duplicate exactly what I did, in Terminal type:  
 `$ bash run_aligned_comparisons.sh >> out_aligned.log`  
 This will similarly create figures and a .csv file, by default `comparisons_aligned.csv`, which will give all of the information found in Figure 4.
 
-6. Run the `make_table.py` script to make Markdown tables similar to what is shown in Table 2. To reproduce the `pre_align_table.md` file here (similar to Table 2 in paper), in Terminal type:
+6. Run the `make_table.py` script to make Markdown tables similar to what is shown in Table 2. To reproduce the `pre_align_table.md` file here (similar to Table 2 in paper), in Terminal type:  
 `$ python make_table.py comparisons.csv "Pre-alignment comparisons" > pre_align_table.md`  
-To reproduce a similar table for post-alignment (`post_align_table.md`), in Terminal type:
+To reproduce a similar table for post-alignment (`post_align_table.md`), in Terminal type:  
 `$ python make_table.py compariosns_aligned.csv "Post-alignment comparisons" > post_align_table.md`  
 
 ## Data files
