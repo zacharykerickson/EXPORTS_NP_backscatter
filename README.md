@@ -18,15 +18,15 @@ Code on EXPORTS North Pacific backscatter alignment, in support of publication E
 7. This will similarly create figures and a .csv file, by default comparisons_aligned.csv, which will give all of the information found in Figure 4.
 
 ## Data files
-FLBB-RR: R2 dataset, filenames matching 'EXPORTS_EXPORTSNP_CTDbinned_rosette_process\_\*\_R2.sb', submitted by UCSB/CRSEO.  
-FLBB-SR: R2 dataset, filenames matching 'EXPORTS_EXPORTSNP_CTDbinned_rosette_survey\_\*\_R2.sb', submitted by UCSB/CRSEA.  
-BB9-SR: R0 dataset, filenames matching 'EXPORTSNP_BB9\_\*\_R0.sb', submitted by NASA_GSFC.  
-BB9-RR: R1 dataset, filenames matching 'EXPORTS-EXPORTSNP_ECO-BB9_process\_\*\_bbp_R1.sb', submitted by MAINE/boss.  
-HS6-RR: R1 dataset, filenames matching 'EXPORTS-EXPORTSNP_HS6_process\_\*\_bbp_R1.sb', submitted by MAINE/boss.
-FLBB-LF: R1 dataset, filename EXPORTS-EXPORTSNP_bb_Seabird_float_20180814_R1.sb, submitted by UWASH/dasaro.  
-BBFL2-WW: R2 dataset, filenames matching 'EXPORTS-EXPORTSNP_Wirewalker\_\*\_R2.sb', submitted by URI/omand.  
-BB2FL-SG: netCDF file (level 2) submitted by UWASH/clee as an 'associated' file, filename 'sg219_EXPORTS_Jul18_level2.nc'.  
-MCOMS-BGC: must be downloaded separately as a netCDF, float ID is 5905988, filename is '5905988_Sprof.nc'.
+- FLBB-RR: R2 dataset, filenames matching 'EXPORTS_EXPORTSNP_CTDbinned_rosette_process\_\*\_R2.sb', submitted by UCSB/CRSEO.  
+- FLBB-SR: R2 dataset, filenames matching 'EXPORTS_EXPORTSNP_CTDbinned_rosette_survey\_\*\_R2.sb', submitted by UCSB/CRSEA.  
+- BB9-SR: R0 dataset, filenames matching 'EXPORTSNP_BB9\_\*\_R0.sb', submitted by NASA_GSFC.  
+- BB9-RR: R1 dataset, filenames matching 'EXPORTS-EXPORTSNP_ECO-BB9_process\_\*\_bbp_R1.sb', submitted by MAINE/boss.  
+- HS6-RR: R1 dataset, filenames matching 'EXPORTS-EXPORTSNP_HS6_process\_\*\_bbp_R1.sb', submitted by MAINE/boss.
+- FLBB-LF: R1 dataset, filename EXPORTS-EXPORTSNP_bb_Seabird_float_20180814_R1.sb, submitted by UWASH/dasaro.  
+- BBFL2-WW: R2 dataset, filenames matching 'EXPORTS-EXPORTSNP_Wirewalker\_\*\_R2.sb', submitted by URI/omand.  
+- BB2FL-SG: netCDF file (level 2) submitted by UWASH/clee as an 'associated' file, filename 'sg219_EXPORTS_Jul18_level2.nc'.  
+- MCOMS-BGC: must be downloaded separately as a netCDF, float ID is 5905988, filename is '5905988_Sprof.nc'.
 
 # Table of Contents
 
