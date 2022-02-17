@@ -22,7 +22,7 @@ This will similarly create figures and a .csv file, by default `comparisons_alig
 6. Run the `make_table.py` script to make Markdown tables similar to what is shown in Table 2. To reproduce the `pre_align_table.md` file here (similar to Table 2 in paper), in Terminal type:  
 `$ python make_table.py comparisons.csv "Pre-alignment comparisons" > pre_align_table.md`  
 To reproduce a similar table for post-alignment (`post_align_table.md`), in Terminal type:  
-`$ python make_table.py compariosns_aligned.csv "Post-alignment comparisons" > post_align_table.md`  
+`$ python make_table.py comparsons_aligned.csv "Post-alignment comparisons" > post_align_table.md`  
 
 ## Data files
 - FLBB-RR: R2 dataset, filenames matching 'EXPORTS_EXPORTSNP_CTDbinned_rosette_process\_\*\_R2.sb', submitted by UCSB/CRSEO.  
