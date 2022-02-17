@@ -5,7 +5,6 @@ import glob
 import seawater as sw
 import warnings
 from netCDF4 import Dataset
-from scipy.io import loadmat # only needed for get_WW_temporary
 
 from SB_support import readSB
 from seawater_scattering import *
